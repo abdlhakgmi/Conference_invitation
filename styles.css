@@ -1,0 +1,684 @@
+/* General Styles */
+body {
+    font-family: 'Tajawal', sans-serif;
+    text-align: right;
+    direction: rtl;
+    background: #D7D8DA; /* Background color for margins */
+    margin: 0;
+}
+
+/* Wrapper for 10% margins */
+.wrapper {
+    width: 80%;
+    margin: 0 auto; /* Center the content */
+    background: white; /* Background color for the content area */
+    min-height: 100vh; /* Ensure full height */
+}
+
+/* Center the Navbar Items */
+.navbar-nav {
+    margin: 0 auto !important; /* Centers the navbar items */
+    display: flex;
+    justify-content: center;
+}
+
+/* Adjust spacing between navbar items */
+.navbar-nav .nav-item {
+    margin: 0 15px; /* Equal margin on both sides */
+}
+
+/* Navbar link styles */
+.navbar-nav .nav-link {
+    font-size: 1.5rem;
+    color: #000 !important; /* Dark text color */
+    padding: 0.5rem 1rem; /* Add padding inside each link */
+    position: relative; /* For the hover effect */
+    transition: color 0.3s ease; /* Smooth transition for text color */
+}
+
+/* Hover effect */
+.navbar-nav .nav-link:hover {
+    color: #007bff !important; /* Change text color on hover */
+}
+
+/* Line under navbar items on hover */
+.navbar-nav .nav-link::after {
+    content: '';
+    position: absolute;
+    width: 0; /* Start with no width */
+    height: 2px; /* Line thickness */
+    background-color: #007bff; /* Line color */
+    bottom: 0; /* Position at the bottom of the link */
+    left: 50%; /* Start from center */
+    transform: translateX(-50%); /* Align center */
+    transition: width 0.3s ease; /* Smooth transition for the line */
+}
+
+.navbar-nav .nav-link:hover::after {
+    width: 100%; /* Expand the line to full width on hover */
+}
+
+/* Carousel Styles */
+.carousel {
+    max-height: 600px; /* Adjust as needed */
+    overflow: hidden;
+    position: relative;
+}
+.carousel-item {
+    height: 100%; /* Make sure the item takes up the full height of the carousel */
+}
+.carousel-item img {
+    width: 100%;
+    height: 100%; /* Ensure the image height is 100% of the carousel item */
+    object-fit: cover; /* Ensure the image covers the entire area without distortion */
+}
+
+/* News Ticker Container */
+.news-ticker {
+    background-color: #007bff; /* Dark background */
+    color: #fff; /* White text */
+    padding: 10px 0;
+    overflow: hidden; /* Hide overflow */
+    position: relative; /* For positioning the ticker content */
+    width: 100vw; /* Full viewport width */
+    margin-left: calc(-50vw + 50%); /* Center the ticker */
+}
+
+/* Ticker Content */
+.ticker-content {
+    display: inline-block;
+    white-space: nowrap; /* Prevent text wrapping */
+    padding-left: 100%; /* Start off-screen to the right (RTL) */
+    animation: ticker 45s linear infinite; /* Adjust animation speed */
+}
+
+/* Ticker Animation */
+@keyframes ticker {
+    0% {
+        transform: translateX(-100%); /* Start from the right (RTL) */
+    }
+    100% {
+        transform: translateX(100%); /* Move to the left (RTL) */
+    }
+}
+
+/* Footer Styles */
+footer {
+    background-color: #343a40;
+    color: #fff;
+    padding: 3rem 0;
+  }
+
+  .social-icons a {
+    font-size: 1.75rem;
+    margin: 10px;
+  }
+
+  /* Section Styling */
+  .image-section {
+    padding: 20px 0;
+    background-color: #f8f9fa; /* Light background for contrast */
+    transition: opacity 0.5s ease-in-out;
+}
+
+* Set specific margins between sections */
+.image-section:first-of-type {
+    margin-bottom: 5px; /* Set a small margin at the bottom of the first section */
+}
+
+.image-section:nth-of-type(2) {
+    margin-top: 5px; /* Set a small margin at the top of the second section */
+}
+
+/* Hover Effect: Reduce Transparency */
+.image-section:hover {
+    opacity: 0.9;
+}
+
+/* Modern Card Styling */
+.custom-card {
+    position: relative;
+    height: 350px; /* Fixed height for consistency */
+    border-radius: 15px;
+    border: none;
+    overflow: hidden;
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+}
+
+/* Hover Effect */
+.custom-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0px 10px 25px rgba(0, 0, 0, 0.3);
+}
+
+/* Card Background Image */
+.card-bg {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-position: center;
+    filter: brightness(0.7); /* Darken image slightly */
+    transition: filter 0.3s ease-in-out;
+}
+
+/* Hover Effect: Lighten Background */
+.custom-card:hover .card-bg {
+    filter: brightness(1);
+}
+
+/* Overlay for text */
+.card-body {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background: rgba(0, 0, 0, 0.6); /* Semi-transparent dark overlay */
+    color: white;
+    text-align: center;
+    padding: 20px;
+    transition: background 0.3s ease-in-out;
+}
+
+.custom-card:hover .card-body {
+    background: rgba(0, 0, 0, 0.8);
+}
+
+.card-title {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.card-text {
+    font-size: 1rem;
+}
+
+/* Responsive Adjustments */
+@media (max-width: 768px) {
+    .image-section {
+        padding: 40px 0;
+    }
+    .custom-card {
+        height: 300px; /* Reduce height on smaller screens */
+    }
+}
+
+/* Section Styling */
+.members-section {
+    padding: 20px 0;
+    background-color: #F4F4F4; /* Background color for section */
+}
+
+/* Title Styling with Hexagonal Shape */
+.members-section h2 {
+    text-align: center;
+    font-size: 2rem;
+    position: relative;
+    display: inline-block;
+    padding: 20px 40px;
+    background-color: #6C757D; /* Gray background for title */
+    color: white;
+    border-radius: 10px;
+}
+
+.members-section h2:before,
+.members-section h2:after {
+    content: '';
+    position: absolute;
+    width: 0;
+    height: 0;
+    border-left: 20px solid transparent;
+    border-right: 20px solid transparent;
+}
+
+.members-section h2:before {
+    top: -20px;
+    left: 50%;
+    border-bottom: 20px solid #6C757D;
+    margin-left: -20px;
+}
+
+.members-section h2:after {
+    bottom: -20px;
+    left: 50%;
+    border-top: 20px solid #6C757D;
+    margin-left: -20px;
+}
+
+/* Table Styling */
+.table-container {
+    background-color: #F4F4F4; /* Table background color */
+    padding: 20px;
+    border-radius: 10px;
+}
+.table th{
+    background-color: cadetblue;
+}
+
+/* Table Styling */
+.table th, .table td {
+    text-align: center; /* Center text in table */
+    vertical-align: middle;
+}
+
+/* Hover Effect for Rows */
+.table-hover tbody tr:hover {
+    background-color: #e1e1e1;
+}
+/*organising comitee section*/
+/* Unique Section Styling */
+.organizing-committee {
+    padding: 60px 0;
+    background-image: url("images/bg-02.jpg"); /* Background image */
+    background-color: #f4f4f4; /* Optional: Background color in case the image doesn't load */
+    background-size: cover; /* Ensures the background image covers the section */
+    background-position: center; /* Ensures the background image is centered */
+    border-top: 5px solid #0d6efd; /* Border at the top of the section */
+}
+
+/* Title Styling */
+.organizing-committee h2 {
+    text-align: center;
+    font-size: 2.5rem;
+    position: relative;
+    display: inline-block;
+    padding: 20px 40px;
+    background-color: gray; /* Gray background for the title */
+    color: white;
+    font-weight: bold;
+    border-radius: 12px;
+}
+
+.organizing-committee h2:before,
+.organizing-committee h2:after {
+    content: '';
+    position: absolute;
+    width: 0;
+    height: 0;
+    border-left: 20px solid transparent;
+    border-right: 20px solid transparent;
+}
+
+.organizing-committee h2:before {
+    top: -20px;
+    left: 50%;
+    border-bottom: 20px solid gray;
+    margin-left: -20px;
+}
+
+.organizing-committee h2:after {
+    bottom: -20px;
+    left: 50%;
+    border-top: 20px solid gray;
+    margin-left: -20px;
+}
+
+/* Card Styling: Unique Borders, Hover Effects, and Color */
+.organizing-committee .card-body {
+    padding: 15px;
+    text-align: center;
+    font-size: 1.2rem;
+    background-color: #ffffff;
+    border: 2px solid #0d6efd; /* Border Color for Cards */
+    border-radius: 12px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease, background-color 0.3s ease;
+}
+
+.organizing-committee .card-body:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    background-color: #0d6efd; /* Blue background on hover */
+    color: white; /* Change text color on hover */
+}
+
+.organizing-committee .card {
+    cursor: pointer;
+    margin-bottom: 15px;
+    transition: background-color 0.3s ease;
+}
+
+.organizing-committee .card:hover {
+    background-color: #0d6efd; /* Card background on hover */
+    color: white; /* Text color when hovered */
+}
+
+/* Using Flexbox for better layout */
+.organizing-committee .card-columns {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+}
+
+.organizing-committee .card {
+    flex: 0 0 calc(33.333% - 20px); /* Three cards per row */
+    box-sizing: border-box;
+}
+
+@media (max-width: 768px) {
+    .organizing-committee .card {
+        flex: 0 0 calc(50% - 20px); /* Two cards per row on medium screens */
+    }
+}
+
+@media (max-width: 576px) {
+    .organizing-committee .card {
+        flex: 0 0 100%; /* One card per row on small screens */
+    }
+}
+
+/* Card Text Styling */
+.organizing-committee .card-body {
+    font-size: 1.1rem;
+    color: #0d6efd; /* Text Color for Cards */
+}
+
+.organizing-committee .card-body:hover {
+    color: #fff;
+}
+
+/*sction participans*/
+/* Custom Style for the Section */
+.participation-conditions {
+    padding: 60px 0;
+    background-color: #f4f4f4;
+    border-top: 5px solid #0d6efd;
+}
+
+.participation-conditions h2 {
+    text-align: center;
+    font-size: 2.5rem;
+    margin-bottom: 30px;
+    background-color: gray; /* Gray background for the title */
+    color: white;
+    padding: 20px;
+    font-weight: bold;
+    border-radius: 12px;
+}
+
+.participation-conditions .list-group-item {
+    font-size: 1.2rem;
+    color: #0d6efd;
+    border: 1px solid #0d6efd;
+    margin-bottom: 10px;
+    border-radius: 8px;
+}
+
+.participation-conditions .list-group-item:hover {
+    background-color: #0d6efd;
+    color: white;
+    cursor: pointer;
+}
+
+/*section dates*/
+.important-dates {
+    padding: 40px 0;
+    background-color: #f4f4f4; /* Light background color for the section */
+}
+
+.important-dates .card {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+/* Apply the hover effect to all cards */
+.important-dates .card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+/* Disable hover effect and shadow for the first and second columns */
+.important-dates .col-md-4:nth-child(1) .card,
+.important-dates .col-md-4:nth-child(2) .card {
+    transition: none;
+    box-shadow: none;
+}
+
+.important-dates .card-title {
+    font-size: 18px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.important-dates .card-text {
+    font-size: 16px;
+    text-align: center;
+}
+
+/*contact us section*/
+.contact-us {
+    background-color: #f8f9fa; /* Light background */
+    padding: 40px 0;
+}
+
+.contact-us h2 {
+    font-size: 28px;
+    font-weight: bold;
+    margin-bottom: 30px;
+    /* Primary color */
+}
+
+.contact-us .btn {
+    font-size: 18px;
+    padding: 15px;
+    border-radius: 8px;
+    text-align: center;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.contact-us .btn:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.contact-us .btn i {
+    margin-right: 10px;
+}
+
+/*conference intro section*/
+.conference-intro {
+    background: url("images/conference-bg.jpg") center/cover no-repeat; /* Background image */
+    background-color: rgba(0, 0, 0, 0.7); /* Dark overlay */
+    background-blend-mode: darken;
+    padding: 80px 0;
+}
+
+.conference-intro h2, 
+.conference-intro h3, 
+.conference-intro p {
+    font-family: 'Tajawal', sans-serif; /* Arabic font */
+}
+
+.conference-title {
+    font-size: 2rem;
+    font-weight: bold;
+    color: #ffc107; /* Highlight color */
+}
+
+.divider {
+    width: 60%;
+    margin: 20px auto;
+    border-top: 2px solid #fff;
+}
+
+.conference-date {
+    font-weight: bold;
+}
+
+@media (max-width: 768px) {
+    .conference-intro {
+        padding: 60px 20px;
+    }
+
+    .conference-title {
+        font-size: 1.8rem;
+    }
+}
+/*remaining days section*/
+.days-remaining {
+    background: #C0C0C0; /* Silver Background */
+    color: #FFD700; /* Gold Text */
+    padding: 80px 0;
+    text-align: center;
+}
+
+
+.countdown-card {
+    background: rgba(255, 255, 255, 0.2);
+    border-radius: 15px;
+    display: inline-block;
+    padding: 20px;
+    width: 200px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+    transition: transform 0.3s ease-in-out;
+}
+
+.countdown-card:hover {
+    transform: scale(1.1);
+}
+
+@media (max-width: 768px) {
+    .days-remaining {
+        padding: 60px 20px;
+    }
+}
+
+/* Registration Section Styles */
+.registration-section {
+    background-color: #f8f9fa; /* Light background */
+    border-radius: 10px; /* Rounded corners */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+    padding: 40px 20px; /* Padding for spacing */
+}
+
+.registration-section h2 {
+    color: #007bff; /* Blue heading */
+    font-weight: bold;
+}
+
+.registration-section .lead {
+    color: #333; /* Dark text for readability */
+    font-size: 1.25rem; /* Larger text for emphasis */
+}
+
+.registration-section .btn-primary {
+    background-color: #007bff; /* Blue button */
+    border: none;
+    padding: 10px 20px; /* Button padding */
+    font-size: 1.1rem; /* Larger button text */
+    transition: background-color 0.3s ease; /* Smooth hover effect */
+}
+
+.registration-section .btn-primary:hover {
+    background-color: #0056b3; /* Darker blue on hover */
+}
+
+.registration-section img {
+    border: 5px solid #007bff; /* Blue border around QR code */
+    border-radius: 10px; /* Rounded corners for QR code */
+}				
+
+/*conference intro section*/
+.conference-intro {
+    padding: 20px 10px;
+    line-height: 1.8;
+    text-align: justify;
+}
+.intro-card {
+    border-radius: 15px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+/*conference-goals section*/
+ /* Custom styles */
+ .conference-goals {
+    background-color: #f7f7f7;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    margin-bottom: 30px;
+}
+
+.conference-goals h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.conference-goals p {
+    font-size: 16px;
+    line-height: 1.6;
+    color: #555;
+    margin-bottom: 15px; /* Margin between paragraphs */
+}
+
+.conference-goals ul {
+    font-size: 16px;
+    line-height: 1.6;
+    color: #555;
+    margin-bottom: 15px;
+    padding-right: 20px;
+}
+
+.conference-goals li {
+    list-style-type: disc; /* Add bullets to list items */
+    margin-bottom: 10px;
+}
+
+.conference-goals .highlight {
+    font-weight: bold;
+    color: #d9534f;
+}
+
+/* RTL (Right to Left) support for Arabic */
+body {
+    direction: rtl;
+    text-align: right;
+}
+
+.conference-topics {
+    background-color: #f7f7f7;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    margin-bottom: 30px;
+}
+
+.conference-topics h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.conference-topics p {
+    font-size: 16px;
+    line-height: 1.6;
+    color: #555;
+    margin-bottom: 15px; /* Margin between paragraphs */
+}
+/*conference-topics section*/
+.conference-topics ul {
+    font-size: 16px;
+    line-height: 1.6;
+    color: #555;
+    margin-bottom: 15px;
+    padding-right: 20px;
+}
+
+.conference-topics li {
+    list-style-type: disc; /* Add bullets to list items */
+    margin-bottom: 10px;
+}
+
+.conference-topics .highlight {
+    font-weight: bold;
+    color: #d9534f;
+}
+
+/* RTL (Right to Left) support for Arabic */
+body {
+    direction: rtl;
+    text-align: right;
+}
