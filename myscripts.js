@@ -24,7 +24,7 @@ $(document).ready(function () {
 
     // Countdown function
     function updateCountdown() {
-        const eventDate = new Date("2025-05-20"); // Event Start Date
+        const eventDate = new Date("2025-05-07"); // Event Start Date
         const today = new Date();
         const timeDiff = eventDate - today;
         const daysRemaining = Math.ceil(timeDiff / (1000 * 60 * 60 * 24)); // Convert to days
@@ -390,20 +390,9 @@ $(document).ready(function () {
                         </div>
                     </section>
 
-                    <!-- Location Section -->
+                 <!-- important dates Section -->
                     <section class="my-4 text-center">
-                        <h2>موقع المؤتمر</h2>
-                        <div class="d-flex justify-content-center">
-                            <div class="map-container" style="width: 80%;">
-                                <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d8292.474210203774!2d0.5766355739308361!3d35.70702531072404!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e1!3m2!1sfr!2sdz!4v1738234385353!5m2!1sfr!2sdz" width="100%" height="400" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-                            </div>
-                        </div>
-                    </section>
-
-                    
-                     <!-- important dates Section -->
-                    <section class="my-4 text-center">
-                        <h2 class="text-center mb-4">مواعيد هامة</h2>
+                        <h2 class="text-center mb-4">مواعيد هامة: </h2>
                         <br><br>
                     <!-- dates Section 01 and 02 -->
                     <section class="my-2 text-center">
@@ -413,24 +402,24 @@ $(document).ready(function () {
                                     <div class="col-md-4 mb-4">
                                         <div class="card border-primary">
                                             <div class="card-body">
-                                                <h5 class="card-title">آخر أجل لاستقبال الملخصات</h5>
-                                                <p class="card-text">يوم 02 ماس 2025</p>
+                                                <h5 class="card-title">	آخر أجل لاستقبال الملخصات </h5>
+                                                <p class="card-text">يوم 25 فيفري 2025 </p>
                                             </div>
                                         </div>
                                     </div>
                                     <div class="col-md-4 mb-4">
                                         <div class="card border-success">
                                             <div class="card-body">
-                                                <h5 class="card-title">الرد على الملخصات المقبولة</h5>
-                                                <p class="card-text">يوم 16 مارس 2025</p>
+                                                <h5 class="card-title">	الرد على الملخصات المقبولة </h5>
+                                                <p class="card-text">يوم 10 مارس 2025</p>
                                             </div>
                                         </div>
                                     </div>
                                     <div class="col-md-4 mb-4">
                                         <div class="card border-warning">
                                             <div class="card-body">
-                                                <h5 class="card-title">آخر أجل لإرسال المداخلات كاملة</h5>
-                                                <p class="card-text">يوم 27 أفريل 2025</p>
+                                                <h5 class="card-title">	آخر أجل لإرسال المداخلات كاملة </h5>
+                                                <p class="card-text">يوم 20 أفريل 2025</p>
                                             </div>
                                         </div>
                                     </div>
@@ -440,20 +429,20 @@ $(document).ready(function () {
 
                         <section class="important-dates">
                             <div class="container">
-                                <div class="row">
+                                <div class="row justify-content-center">
                                     <div class="col-md-4 mb-4">
                                         <div class="card border-info">
                                             <div class="card-body">
-                                                <h5 class="card-title">الرد على المداخلات المقبولة</h5>
-                                                <p class="card-text">يوم 04 ماي 2025</p>
+                                                <h5 class="card-title">يتم الرد على المداخلات المقبولة </h5>
+                                                <p class="card-text">يوم 30 افريل 2025</p>
                                             </div>
                                         </div>
                                     </div>
                                     <div class="col-md-4 mb-4">
                                         <div class="card border-danger">
                                             <div class="card-body">
-                                                <h5 class="card-title">يعقد المؤتمر</h5>
-                                                <p class="card-text">يومي 20 و21 ماي 2025</p>
+                                                <h5 class="card-title">	يعقد المؤتمر يوم </h5>
+                                               <p class="card-text">يوم 07 ماي 2025</p>
                                             </div>
                                         </div>
                                     </div>
@@ -463,18 +452,139 @@ $(document).ready(function () {
                       </section>  
                     </section>
 
+                     <!-- Supervisory Board of the Conference Section -->
+                    <section class="my-4 text-center">
+                         <section class="container my-5">
+                            <h2 class="text-center mb-4">مجلس الإشراف على المؤتمر:</h2>
+                            <div class="row">
+                            <!-- Conference Chairman -->
+                            <div class="col-md-3 col-sm-6">
+                                <div class="supervisor-card">
+                                <img src="images/profil-f.png" alt="د/أمينة نزيهة بداني" class="supervisor-image">
+                                <h5 class="supervisor-title">رئيس المؤتمر</h5>
+                                <p class="supervisor-description">د/أمينة نزيهة بداني </p>
+                                </div>
+                            </div>
+
+                            <!-- Conference Supervisor -->
+                            <div class="col-md-3 col-sm-6">
+                                <div class="supervisor-card">
+                                <img src="images/profil-m.png" alt="Professor Abdelkader BAGHDED-BEY" class="supervisor-image">
+                                <h5 class="supervisor-title">المشرف العام على المؤتمر</h5>
+                                <p class="supervisor-description">أد/ عبد القادر بغداد باي </p>
+                                </div>
+                            </div>
+
+                            <!-- Head of the Scientific Committee -->
+                            <div class="col-md-3 col-sm-6">
+                                <div class="supervisor-card">
+                                <img src="images/profil-f.png" alt="Saida Kheira BENAMMAR" class="supervisor-image">
+                                <h5 class="supervisor-title">رئيس اللّجنة العلمية</h5>
+                                <p class="supervisor-description">د/ سعيدة خيرة بن عمار </p>
+                                </div>
+                            </div>
+
+                            <!-- Head of the Organizing Committee -->
+                            <div class="col-md-3 col-sm-6">
+                                <div class="supervisor-card">
+                                <img src="images/profil-m.png" alt="Yousri SICHI" class="supervisor-image">
+                                <h5 class="supervisor-title">رئيس اللّجنة التنظيمية</h5>
+                                <p class="supervisor-description">د/ يسري صيشي </p>
+                                </div>
+                            </div>
+                            </div>
+                        </section>
+                    </section>
+
+
+                    <!-- conference venue Section -->
+                    <section class="py-5 bg-light">
+                        <div class="container">
+                            <h2 class="mb-4 text-center">
+                                <i class="fas fa-map-marker-alt text-danger me-2"></i>
+                                مكان إنعقاد المؤتمر:
+                            </h2>
+                            
+                            <div class="row g-4 justify-content-center">
+                                <!-- In-Person Venue -->
+                                <div class="col-md-6">
+                                    <div class="d-flex align-items-start bg-white p-4 rounded shadow-sm">
+                                        <div class="me-3 text-primary">
+                                            <i class="fas fa-university fa-2x"></i>
+                                        </div>
+                                        <div>
+                                            <h4 class="mb-3">	يعقد المؤتمر حضوريا </h4>
+                                            <ul class="list-unstyled">
+                                                <li class="mb-2">
+                                                    <i class="fas fa-building me-2 text-secondary"></i>
+                                                    بقاعة المحاضرات الكبرى
+                                                </li>
+                                                <li class="mb-2">
+                                                    <i class="fas fa-school me-2 text-secondary"></i>
+                                                   جامعة أحمد زبانة 
+                                                </li>
+                                                <li>
+                                                    <i class="fas fa-map-pin me-2 text-secondary"></i>
+                                                    غليزان- الجزائر
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <!-- Virtual Venue -->
+                                <div class="col-md-6">
+                                    <div class="d-flex align-items-start bg-white p-4 rounded shadow-sm">
+                                        <div class="me-3 text-danger">
+                                            <i class="fab fa-google fa-2x"></i>
+                                        </div>
+                                        <div>
+                                            <h4 class="mb-3">وعبر تقنية التحاضر عن بعد</h4>
+                                            <p class="mb-2">
+                                                <i class="fas fa-video me-2 text-secondary"></i>
+                                                عبر
+                                            </p>
+                                            <div class="d-flex align-items-center">
+                                                <i class="fab fa-google me-2 text-primary"></i>
+                                                <h5 class="mb-0">Google Meet</h5>
+                                            </div>
+                                            <div class="mt-3">
+                                                <a href="#" class="btn btn-outline-primary btn-sm">
+                                                    <i class="fas fa-link me-2"></i>
+                                                    رابط الاجتماع (متاح عند إقتراب الموعد)
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+
+
+                    <!-- conference venue on maps Section -->
+                    <section class="my-4 text-center">
+                        <h2>إحداثيات جوجل مابس </h2>
+                        <div class="d-flex justify-content-center">
+                            <div class="map-container" style="width: 80%;">
+                                <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d8292.474210203774!2d0.5766355739308361!3d35.70702531072404!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e1!3m2!1sfr!2sdz!4v1738234385353!5m2!1sfr!2sdz" width="100%" height="400" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                            </div>
+                        </div>
+                    </section>
+
+
                     
                     <!-- contact Section -->
                     <section class="my-4 text-center">
                         <!-- Contact Us Section -->
                         <section class="contact-us my-5">
                             <div class="container text-center">
-                                <h2 class="mb-4">اتصل بنا</h2>
+                                <h2 class="mb-4">آليات التواصل مع الهيئة المنظمة للمؤتمر:</h2>
                                 <div class="row justify-content-center">
                                     <!-- Email -->
                                     <div class="col-md-4 mb-3">
                                         <a href="mailto:digitalemp2@gmail.com" class="btn btn-outline-primary w-100">
-                                            <i class="fas fa-envelope fa-lg"></i> للتواصل عبر البريد الإلكتروني
+                                            <i class="fas fa-envelope fa-lg"></i> digitalemp2@gmail.com
                                         </a>
                                     </div>
                                     <!-- WhatsApp -->
@@ -494,25 +604,85 @@ $(document).ready(function () {
                         <div class="container">
                             <div class="row align-items-center">
                                 <div class="col-md-8">
-                                    <h2 class="mb-4">سجل في المؤتمر</h2>
+                                    <h2 class="mb-4">صفحة المشاركة في المؤتمر</h2>
                                     <p class="lead mb-4">
-                                        ملاحظة: ترسل الملخصات حصرا عبر استمارة التسجيل التالية:
+                                      ملاحظة: ترسل الملخصات حصرا عبر استمارة التسجيل التالية:
                                     </p>
                                     <a href="https://docs.google.com/forms/d/e/1FAIpQLSdG9jOwJMY1H5EvXpDYCqTSH2p49fDLEXHrBgqDp7eRcLIhPg/viewform?pli=1" 
                                        class="btn btn-primary btn-lg" 
                                        target="_blank">
-                                       اذهب إلى استمارة التسجيل
+                                       Go to the registration form
                                     </a>
                                 </div>
                               
                                 <div class="col-md-4 text-center">
                                     <li class="mb-3"><a href="https://forms.gle/eThMfQxKfTdNgJZt5" class="text-decoration-none text-white link-info">https://forms.gle/eThMfQxKfTdNgJZt5</a></li>
                                     <img src="images/code-qr.jpg" alt="QR Code" class="img-fluid" style="max-width: 200px;">
-                                    <p class="mt-2">مسح رمز الاستجابة السريعة</p>
+                                    <p class="mt-2"></p>
                                 </div>
                             </div>
                         </div>
                     </section>
+
+                    
+                    <!-- Participation Fees Section -->
+                    <section class="participation-fees-section">
+                        <h2></h2>
+
+                        <!-- Row for Fee Structure and Participation Rights -->
+                        <div class="fees-row">
+                        <!-- Fee Structure Card -->
+                        <div class="fees-card">
+                            <h3>رسوم المشاركة:  </h3>
+                            <ul>
+                            <li><طلبة الدكتوراه: 3000 دج حضوريا، 2000 دج عن بعد.</li>
+                            <li>الأساتذة الباحثون:  6000دج  حضوريا، 4000 دج عن بعد.</li>
+                            <li>الهيئات والمؤسسات :   10000دج حضوريا، 6000دج عن بعد.</li>
+                            <li>المشاركون الأجانب: 150 أورو حضوريا، 100 أورو عن بعد.</li>
+                            <li><في حالة المشاركات الثنائية، يدفع المشارك الثاني في الترتيب نصف حقوق المشاركة 50%. </li>
+                            </ul>
+                        </div>
+
+                        <!-- Participation Rights Card -->
+                        <div class="fees-card">
+                            <h3>ملاحظات:</h3>
+                            <ul>
+                            <li>يمكن المشاركة بجداريات تعرض للنقاش والتفاعل العلمي على هامش المؤتمر.</li>
+                            <li>تشمل حقوق المشاركة: حضور جلسات وورشات المؤتمر، وجبات الغداء، استراحة القهوة، منشورات ومطويات ومطويات المؤتمر.</li>
+                            <li>تنشر أعمال المؤتمر في كتاب جماعي ذو ترقيم دولي.  </li>
+                            </ul>
+                        </div>
+                        </div>
+                    </section>
+
+                     <!-- Conference files download Section -->
+                    <section class="my-4 text-center">
+                        <!-- Contact Us Section -->
+                        <section class="contact-us my-5">
+                            <div class="container text-center">
+                                <h2 class="mb-4 section-header"> تحميل الملفات</h2>
+                                <div class="row d-flex justify-content-between">
+                                    <!-- Arabic file -->
+                                    <div class="col-md-4 mb-3">
+                                        <a href="https://drive.google.com/file/d/1A4Ade6TvrhkVKoRdunBb10U47LDuUGjP/edit?fbclid=IwY2xjawIKKRBleHRuA2FlbQIxMAABHRhMo2b9vaahoSbzS0XYyW1dqrCmotN6uVwh5aEMBgxIxAOEGXyo4ht9tw_aem_rD4hnMP4eTqGaMnCuT9z1w" target="_blank" class=" align-items-center">
+                                            <i class="fas fa-file-pdf" style="font-size: 2rem; color: #d9534f; margin-right: 8px;"></i> 
+                                            تحميل النسخة العربية
+                                        </a>
+                                    </div>
+                                    <!-- English file -->
+                                    <div class="col-md-4 mb-3">
+                                        <a href="https://drive.google.com/file/d/1-kg5Z1lX8t89ScqnJQsN2WZqcJ8DqBDt/edit?fbclid=IwY2xjawIKKLpleHRuA2FlbQIxMAABHWYipz-LHJgElOFVk8N4fvNE4P6oD2i9cTPRpps2ZvOW70rpajilr_LOnA_aem_KGG3CxdrBXTZweBV96tP6g" target="_blank" class=" align-items-center">
+                                            <i class="fas fa-file-pdf" style="font-size: 2rem; color: #d9534f; margin-right: 8px;"></i> 
+                                           تحميل النسخة الإنجليزية
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </section>
+
+                    </section>
+
+
                 `;
                 break;
 
@@ -580,9 +750,9 @@ $(document).ready(function () {
 
             case 'themes':
                 content = `
-                    <section class="my-4 text-center">
-                        <section class="container">
-                            <div class="intro-card bg-white p-4 p-md-5 mb-2">
+                    <section class="my-4 d-flex justify-content-end ">
+                        <section class="container ">
+                            <div class="intro-card bg-white p-4 p-md-5 mb-2 ">
                                 <h2 class="display-6 text-primary mb-4 border-bottom pb-3 text-end">محاور المؤتمر</h2>
                                 
                                 <div class="conference-intro conference-topics fs-5 lh-base bg-light">
