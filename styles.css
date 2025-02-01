@@ -206,7 +206,7 @@ footer {
     }
 }
 
-/* Section Styling */
+/*members section styling*/
 .members-section {
     padding: 20px 0;
     background-color: #F4F4F4; /* Background color for section */
@@ -253,21 +253,81 @@ footer {
     background-color: #F4F4F4; /* Table background color */
     padding: 20px;
     border-radius: 10px;
-}
-.table th{
-    background-color: cadetblue;
+    overflow-x: auto;
 }
 
-/* Table Styling */
+/* Table Header */
+.table th {
+    background-color: cadetblue;
+    color: white;
+    padding: 12px;
+}
+
+/* Table Cells */
 .table th, .table td {
-    text-align: center; /* Center text in table */
+    text-align: center;
     vertical-align: middle;
+    padding: 10px;
+    border: 1px solid #ddd;
 }
 
 /* Hover Effect for Rows */
 .table-hover tbody tr:hover {
     background-color: #e1e1e1;
 }
+
+/* ===== Responsive Table (≤ 768px) ===== */
+@media (max-width: 768px) {
+    .table, 
+    .table thead, 
+    .table tbody, 
+    .table th, 
+    .table td, 
+    .table tr {
+        display: block;
+    }
+
+    /* Hide Table Header */
+    .table thead {
+        display: none;
+    }
+
+    /* Convert rows into grid structure */
+    .table tbody tr {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 5px;
+        margin-bottom: 10px;
+        border: 1px solid #ccc;
+        padding: 10px;
+        background-color: #6C757D;
+        /*background: white;*/
+    }
+
+    /* Adjust individual cells */
+    .table tbody td {
+        border: none;
+        padding: 10px;
+        display: flex;
+        align-items: center;
+        background-color: #6C757D;
+        /*background: #f9f9f9;*/
+    }
+
+    /* Add labels dynamically */
+    .table tbody td::before {
+        content: attr(data-label);
+        font-weight: bold;
+        margin-right: 10px;
+        color: #333;
+    }
+}
+
+/* Clearfix to maintain layout integrity */
+.clear-both {
+    clear: both;
+}
+
 /*organising comitee section*/
 /* Unique Section Styling */
 .organizing-committee {
@@ -413,39 +473,76 @@ footer {
     cursor: pointer;
 }
 
-/*section dates*/
+/*important dates section*/
+.important-dates-section {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    text-align: center;
+}
+
+.important-dates-section h2 {
+    font-size: 2.5rem;
+    color: #2c3e50;
+    margin-bottom: 20px;
+}
+
 .important-dates {
-    padding: 40px 0;
-    background-color: #f4f4f4; /* Light background color for the section */
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
 }
 
 .important-dates .card {
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    text-align: center;
+    width: 300px;
+    border: 3px solid;
     transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
-/* Apply the hover effect to all cards */
 .important-dates .card:hover {
-    transform: translateY(-10px);
+    transform: translateY(-5px);
     box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
-}
-
-/* Disable hover effect and shadow for the first and second columns */
-.important-dates .col-md-4:nth-child(1) .card,
-.important-dates .col-md-4:nth-child(2) .card {
-    transition: none;
-    box-shadow: none;
 }
 
 .important-dates .card-title {
     font-size: 18px;
     font-weight: bold;
-    text-align: center;
+    margin-bottom: 10px;
 }
 
 .important-dates .card-text {
     font-size: 16px;
-    text-align: center;
+    color: #333;
 }
+
+/* Border colors */
+.important-dates .card:nth-child(1) { border-color: #007bff; } /* Blue */
+.important-dates .card:nth-child(2) { border-color: #28a745; } /* Green */
+.important-dates .card:nth-child(3) { border-color: #ffc107; } /* Yellow */
+.important-dates .card:nth-child(4) { border-color: #17a2b8; } /* Teal */
+.important-dates .card:nth-child(5) { border-color: #dc3545; } /* Red */
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .important-dates {
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+/* Empty div to clear floats */
+.important-dates-clear {
+    clear: both;
+}
+
+
+
 
 /*contact us section*/
 .contact-us {

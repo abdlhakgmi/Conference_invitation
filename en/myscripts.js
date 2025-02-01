@@ -399,66 +399,41 @@ $(document).ready(function () {
                     
                       
                      <!-- important dates Section -->
-                    <section class="my-4 text-center">
-                        <h2 class="text-center mb-4 section-header">Important dates: </h2>
-                        <br><br>
-                    <!-- dates Section 01 and 02 -->
-                    <section class="my-2 text-center">
-                        <section class="important-dates">
-                            <div class="container">
-                                <div class="row">
-                                    <div class="col-md-4 mb-4">
-                                        <div class="card border-primary">
-                                            <div class="card-body">
-                                                <h5 class="card-title">Abstract Submission Deadline:</h5>
-                                                <p class="card-text">25 /02/ 2025</p>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="col-md-4 mb-4">
-                                        <div class="card border-success">
-                                            <div class="card-body">
-                                                <h5 class="card-title">Responding to accepted Abstract:</h5>
-                                                <p class="card-text">10/03/2025</p>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="col-md-4 mb-4">
-                                        <div class="card border-warning">
-                                            <div class="card-body">
-                                                <h5 class="card-title">Deadline for full paper submissions:</h5>
-                                                <p class="card-text">20/04/2025</p>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </section>
+                    <div class="important-dates-section">
+                        <h2>Important Dates</h2>
 
-                        <section class="important-dates">
-                            <div class="container">
-                                <div class="row justify-content-center">
-                                    <div class="col-md-4 mb-4">
-                                        <div class="card border-info">
-                                            <div class="card-body">
-                                                <h5 class="card-title">Responding to accepted papers:</h5>
-                                                <p class="card-text">30/04/2025</p>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="col-md-4 mb-4">
-                                        <div class="card border-danger">
-                                            <div class="card-body">
-                                                <h5 class="card-title">Conference Date:</h5>
-                                                <p class="card-text">07 May 2025</p>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
+                        <div class="important-dates">
+                            <div class="card">
+                                <h5 class="card-title">Abstract Submission Deadline:</h5>
+                                <p class="card-text">25 /02/ 2025</p>
                             </div>
-                        </section>
-                      </section>  
-                    </section>
+                            <div class="card">
+                                <h5 class="card-title">Responding to Accepted Abstract:</h5>
+                                <p class="card-text">10/03/2025</p>
+                            </div>
+                            <div class="card">
+                                <h5 class="card-title">Deadline for Full Paper Submissions:</h5>
+                                <p class="card-text">20/04/2025</p>
+                            </div>
+                        </div>
+
+                        <div class="important-dates" style="margin-top: 20px;">
+                            <div class="card">
+                                <h5 class="card-title">Responding to Accepted Papers:</h5>
+                                <p class="card-text">30/04/2025</p>
+                            </div>
+                            <div class="card">
+                                <h5 class="card-title">Conference Date:</h5>
+                                <p class="card-text">07 May 2025</p>
+                            </div>
+                        </div>
+
+                        <!-- Empty div to clear floats -->
+                        <div class="important-dates-clear"></div>
+                    </div>
+
+
+
 
                      <!-- Supervisory Board of the Conference Section -->
                     <section class="my-4 text-center">
@@ -597,7 +572,7 @@ $(document).ready(function () {
                                     </div>
                                     <!-- WhatsApp -->
                                     <div class="col-md-4 mb-3">
-                                        <a href="https://wa.me/1234567890" class="btn btn-outline-success w-100" target="_blank">
+                                        <a href="https://wa.me/+213541925504" class="btn btn-outline-success w-100" target="_blank">
                                             <i class="fab fa-whatsapp fa-lg"></i> • For communication using WhatsApp:
                                         </a>
                                     </div>

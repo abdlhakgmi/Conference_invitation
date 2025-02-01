@@ -390,67 +390,40 @@ $(document).ready(function () {
                         </div>
                     </section>
 
-                 <!-- important dates Section -->
-                    <section class="my-4 text-center">
-                        <h2 class="text-center mb-4">مواعيد هامة: </h2>
-                        <br><br>
-                    <!-- dates Section 01 and 02 -->
-                    <section class="my-2 text-center">
-                        <section class="important-dates">
-                            <div class="container">
-                                <div class="row">
-                                    <div class="col-md-4 mb-4">
-                                        <div class="card border-primary">
-                                            <div class="card-body">
-                                                <h5 class="card-title">	آخر أجل لاستقبال الملخصات </h5>
-                                                <p class="card-text">يوم 25 فيفري 2025 </p>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="col-md-4 mb-4">
-                                        <div class="card border-success">
-                                            <div class="card-body">
-                                                <h5 class="card-title">	الرد على الملخصات المقبولة </h5>
-                                                <p class="card-text">يوم 10 مارس 2025</p>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="col-md-4 mb-4">
-                                        <div class="card border-warning">
-                                            <div class="card-body">
-                                                <h5 class="card-title">	آخر أجل لإرسال المداخلات كاملة </h5>
-                                                <p class="card-text">يوم 20 أفريل 2025</p>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </section>
 
-                        <section class="important-dates">
-                            <div class="container">
-                                <div class="row justify-content-center">
-                                    <div class="col-md-4 mb-4">
-                                        <div class="card border-info">
-                                            <div class="card-body">
-                                                <h5 class="card-title">يتم الرد على المداخلات المقبولة </h5>
-                                                <p class="card-text">يوم 30 افريل 2025</p>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="col-md-4 mb-4">
-                                        <div class="card border-danger">
-                                            <div class="card-body">
-                                                <h5 class="card-title">	يعقد المؤتمر يوم </h5>
-                                               <p class="card-text">يوم 07 ماي 2025</p>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
+                    <div class="important-dates-section">
+                        <h2>مواعيد هامة: </h2>
+
+                        <div class="important-dates">
+                            <div class="card">
+                                <h5 class="card-title">آخر أجل لاستقبال الملخصات</h5>
+                                <p class="card-text">يوم 25 فيفري 2025 </p>
                             </div>
-                        </section>
-                      </section>  
-                    </section>
+                            <div class="card">
+                                <h5 class="card-title">	الرد على الملخصات المقبولة </h5>
+                                <p class="card-text">يوم 10 مارس 2025</p>
+                            </div>
+                            <div class="card">
+                                <h5 class="card-title">	آخر أجل لإرسال المداخلات كاملة </h5>
+                                <p class="card-text">يوم 20 أفريل 2025</p>
+                            </div>
+                        </div>
+
+                        <div class="important-dates" style="margin-top: 20px;">
+                            <div class="card">
+                                <h5 class="card-title">يتم الرد على المداخلات المقبولة </h5>
+                                <p class="card-text">يوم 30 افريل 2025</p>
+                            </div>
+                            <div class="card">
+                                <h5 class="card-title">	يعقد المؤتمر يوم </h5>
+                                <p class="card-text">يوم 07 ماي 2025</p>
+                            </div>
+                        </div>
+
+                        <!-- Empty div to clear floats -->
+                        <div class="important-dates-clear"></div>
+                    </div>
+
 
                      <!-- Supervisory Board of the Conference Section -->
                     <section class="my-4 text-center">
@@ -589,7 +562,7 @@ $(document).ready(function () {
                                     </div>
                                     <!-- WhatsApp -->
                                     <div class="col-md-4 mb-3">
-                                        <a href="https://wa.me/1234567890" class="btn btn-outline-success w-100" target="_blank">
+                                        <a href="https://wa.me/+213541925504" class="btn btn-outline-success w-100" target="_blank">
                                             <i class="fab fa-whatsapp fa-lg"></i> للتواصل عبر الواتساب
                                         </a>
                                     </div>
