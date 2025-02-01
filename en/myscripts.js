@@ -249,7 +249,7 @@ $(document).ready(function () {
                                 <div class="col-md-4 mb-4">
                                     <div class="card">
                                         <div class="card-body">
-                                            Dr. Djamel Ben Demia
+                                            Dr. Djamel Bendimia
                                         </div>
                                     </div>
                                 </div>
