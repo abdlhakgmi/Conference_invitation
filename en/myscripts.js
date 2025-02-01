@@ -123,9 +123,9 @@ $(document).ready(function () {
                                         <td>University of Sidi Bel Abbes - Algeria</td>
                                     </tr>
                                     <tr>
-                                        <td>Dr. Wahiba Belcherif</td>
+                                        <td>Dr. Wahiba Becherif</td>
                                         <td>University of Relizane - Algeria</td>
-                                        <td>Dr. Fatima Zahra Twati</td>
+                                        <td>Dr. Fatima Zahra Touati</td>
                                         <td>University of Algiers 3 - Algeria</td>
                                     </tr>
                                     <tr>
@@ -143,11 +143,11 @@ $(document).ready(function () {
                                     <tr>
                                         <td>Dr. Sara Kherchi</td>
                                         <td>University of Relizane - Algeria</td>
-                                        <td>Dr. Fatima Zahra Kasimi</td>
+                                        <td>Dr. Fatima Zahra Kacimi</td>
                                         <td>University of Algiers 3 - Algeria</td>
                                     </tr>
                                     <tr>
-                                        <td>Dr. Jamal Bousif</td>
+                                        <td>Dr. Djamel Boucif</td>
                                         <td>University of Relizane - Algeria</td>
                                         <td>Dr. Bassam Ahmed Sherif</td>
                                         <td>University of Medea - Algeria</td>
@@ -159,57 +159,57 @@ $(document).ready(function () {
                                         <td>University of Constantine 3 - Algeria</td>
                                     </tr>
                                     <tr>
-                                        <td>Dr. Atika Ezzedine</td>
+                                        <td>Dr. Atika Azzedine</td>
                                         <td>University of Relizane - Algeria</td>
-                                        <td>Dr. Amal Kasimi</td>
+                                        <td>Dr. Amal Kacimi</td>
                                         <td>University of Algiers 3 - Algeria</td>
                                     </tr>
                                     <tr>
-                                        <td>Dr. Warda Hassain Dweji</td>
+                                        <td>Dr. Warda Hassain Douadji</td>
                                         <td>University of Relizane - Algeria</td>
-                                        <td>Dr. Nourine Chachash</td>
+                                        <td>Dr. Nourine Achache</td>
                                         <td>University of Sidi Bel Abbes - Algeria</td>
                                     </tr>
                                     <tr>
-                                        <td>Dr. Amal Amer</td>
+                                        <td>Dr. Amal Ameur</td>
                                         <td>University of Relizane - Algeria</td>
-                                        <td>Dr. Mai Abdallah</td>
+                                        <td>Dr. May Abdallah</td>
                                         <td>University of Beirut - Lebanon</td>
                                     </tr>
                                     <tr>
                                         <td>Dr. Reem Fatiha Kadouri</td>
                                         <td>University of Relizane - Algeria</td>
-                                        <td>Dr. Jamal Zaroun</td>
+                                        <td>Dr. Djamel zran </td>
                                         <td>Institute of Journalism and Media Sciences, University of Manouba - Tunisia</td>
                                     </tr>
                                     <tr>
-                                        <td>Prof. Abdelwahab Ghalem</td>
+                                        <td>Prof. Abdelouaheb Ghalem</td>
                                         <td>University of Oran - Algeria</td>
                                         <td>Dr. Wael Ismail Abdelbari</td>
                                         <td>University of Ain Shams - Egypt</td>
                                     </tr>
                                     <tr>
-                                        <td>Prof. Mohamed Borkan</td>
+                                        <td>Prof. Mohamed Berekan</td>
                                         <td>University of Oran - Algeria</td>
                                         <td>Dr. Abbas Mustafa Sadiq</td>
                                         <td>International Center for Strategic Studies, Abu Dhabi</td>
                                     </tr>
                                     <tr>
-                                        <td>Prof. Bouamama Arabi</td>
+                                        <td>Prof. Bouamama Larbi</td>
                                         <td>University of Mostaganem - Algeria</td>
                                         <td>Dr. Doaa Kamal Mohamed Rizk</td>
                                         <td>Applied Science Private University - Jordan</td>
                                     </tr>
                                     <tr>
-                                        <td>Prof. Salima Bouchfra</td>
+                                        <td>Prof. Salima Bouchefra</td>
                                         <td>University of Mostaganem - Algeria</td>
-                                        <td>Dr. Shaheera Ben Abdullah</td>
+                                        <td>Dr. Chahira Ben Abdullah</td>
                                         <td>Institute of Journalism and Media Sciences, University of Manouba - Tunisia</td>
                                     </tr>
                                     <tr>
-                                        <td>Dr. Bouabdallah Ben Ajmya</td>
+                                        <td>Dr. Bouabdellah  Benajaimia</td>
                                         <td>University of Mostaganem - Algeria</td>
-                                        <td>Dr. Yamin Boudhan</td>
+                                        <td>Dr. Lyamin Boudhane</td>
                                         <td>Qatar University</td>
                                     </tr>
                                 </tbody>
@@ -242,14 +242,14 @@ $(document).ready(function () {
                                 <div class="col-md-4 mb-4">
                                     <div class="card">
                                         <div class="card-body">
-                                            Dr. Fathi Laksir
+                                            Dr. Fathi Elkacir
                                         </div>
                                     </div>
                                 </div>
                                 <div class="col-md-4 mb-4">
                                     <div class="card">
                                         <div class="card-body">
-                                            Dr. Jamal Ben Demia
+                                            Dr. Djamel Ben Demia
                                         </div>
                                     </div>
                                 </div>
@@ -263,14 +263,14 @@ $(document).ready(function () {
                                 <div class="col-md-4 mb-4">
                                     <div class="card">
                                         <div class="card-body">
-                                            Dr. Hafiza Jellouli
+                                            Dr. Hafida Djellouli 
                                         </div>
                                     </div>
                                 </div>
                                 <div class="col-md-4 mb-4">
                                     <div class="card">
                                         <div class="card-body">
-                                            Dr. Houaria Bougari
+                                            Dr. Houaria Boughari
                                         </div>
                                     </div>
                                 </div>
