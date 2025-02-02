@@ -95,6 +95,53 @@ $(document).ready(function () {
                         </div>
                     </section>
 
+
+                     <!-- Supervisory Board of the Conference Section -->
+                    <section class="my-4 text-center">
+                         <section class="container my-5">
+                            <h2 class="text-center mb-4">هيئــة الإشــراف علـى المؤتمـر:</h2>
+                            <div class="row">
+                            <!-- Conference Chairman -->
+                            <div class="col-md-3 col-sm-6">
+                                <div class="supervisor-card">
+                                <img src="images/profil-f.png" alt="د/أمينة نزيهة بداني" class="supervisor-image">
+                                <h5 class="supervisor-title">رئيس المؤتمر</h5>
+                                <p class="supervisor-description">د/أمينة نزيهة بداني </p>
+                                </div>
+                            </div>
+
+                            <!-- Conference Supervisor -->
+                            <div class="col-md-3 col-sm-6">
+                                <div class="supervisor-card">
+                                <img src="images/profil-m.png" alt="Professor Abdelkader BAGHDED-BEY" class="supervisor-image">
+                                <h5 class="supervisor-title">المشرف العام على المؤتمر</h5>
+                                <p class="supervisor-description">أد/ عبد القادر بغداد باي </p>
+                                </div>
+                            </div>
+
+                            <!-- Head of the Scientific Committee -->
+                            <div class="col-md-3 col-sm-6">
+                                <div class="supervisor-card">
+                                <img src="images/profil-f.png" alt="Saida Kheira BENAMMAR" class="supervisor-image">
+                                <h5 class="supervisor-title">رئيس اللّجنة العلمية</h5>
+                                <p class="supervisor-description">د/ سعيدة خيرة بن عمار </p>
+                                </div>
+                            </div>
+
+                            <!-- Head of the Organizing Committee -->
+                            <div class="col-md-3 col-sm-6">
+                                <div class="supervisor-card">
+                                <img src="images/profil-m.png" alt="Yousri SICHI" class="supervisor-image">
+                                <h5 class="supervisor-title">رئيس اللّجنة التنظيمية</h5>
+                                <p class="supervisor-description">د/ يسري صيشي </p>
+                                </div>
+                            </div>
+                            </div>
+                        </section>
+                    </section>
+
+                    
+
                     <!-- Members Section -->
                     <section class="members-section my-4 text-center">
                         <div class="container">
@@ -424,50 +471,6 @@ $(document).ready(function () {
                         <div class="important-dates-clear"></div>
                     </div>
 
-
-                     <!-- Supervisory Board of the Conference Section -->
-                    <section class="my-4 text-center">
-                         <section class="container my-5">
-                            <h2 class="text-center mb-4">مجلس الإشراف على المؤتمر:</h2>
-                            <div class="row">
-                            <!-- Conference Chairman -->
-                            <div class="col-md-3 col-sm-6">
-                                <div class="supervisor-card">
-                                <img src="images/profil-f.png" alt="د/أمينة نزيهة بداني" class="supervisor-image">
-                                <h5 class="supervisor-title">رئيس المؤتمر</h5>
-                                <p class="supervisor-description">د/أمينة نزيهة بداني </p>
-                                </div>
-                            </div>
-
-                            <!-- Conference Supervisor -->
-                            <div class="col-md-3 col-sm-6">
-                                <div class="supervisor-card">
-                                <img src="images/profil-m.png" alt="Professor Abdelkader BAGHDED-BEY" class="supervisor-image">
-                                <h5 class="supervisor-title">المشرف العام على المؤتمر</h5>
-                                <p class="supervisor-description">أد/ عبد القادر بغداد باي </p>
-                                </div>
-                            </div>
-
-                            <!-- Head of the Scientific Committee -->
-                            <div class="col-md-3 col-sm-6">
-                                <div class="supervisor-card">
-                                <img src="images/profil-f.png" alt="Saida Kheira BENAMMAR" class="supervisor-image">
-                                <h5 class="supervisor-title">رئيس اللّجنة العلمية</h5>
-                                <p class="supervisor-description">د/ سعيدة خيرة بن عمار </p>
-                                </div>
-                            </div>
-
-                            <!-- Head of the Organizing Committee -->
-                            <div class="col-md-3 col-sm-6">
-                                <div class="supervisor-card">
-                                <img src="images/profil-m.png" alt="Yousri SICHI" class="supervisor-image">
-                                <h5 class="supervisor-title">رئيس اللّجنة التنظيمية</h5>
-                                <p class="supervisor-description">د/ يسري صيشي </p>
-                                </div>
-                            </div>
-                            </div>
-                        </section>
-                    </section>
 
 
                     <!-- conference venue Section -->

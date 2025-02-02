@@ -95,6 +95,50 @@ $(document).ready(function () {
                         </div>
                     </section>
 
+                     <!-- Supervisory Board of the Conference Section -->
+                    <section class="my-4 text-center">
+                         <section class="container my-5">
+                            <h2 class="text-center mb-4 section-header">Supervisory Board of the Conference</h2>
+                            <div class="row">
+                            <!-- Conference Chairman -->
+                            <div class="col-md-3 col-sm-6">
+                                <div class="supervisor-card">
+                                <img src="images/profil-f.png" alt="Dr Amina Naziha BEDANI" class="supervisor-image">
+                                <h5 class="supervisor-title">Conference Chairman</h5>
+                                <p class="supervisor-description">Dr Amina Naziha BEDANI <b style="visibility: hidden;">Dr Amina Naziha BEDANI</b></p>
+                                </div>
+                            </div>
+
+                            <!-- Conference Supervisor -->
+                            <div class="col-md-3 col-sm-6">
+                                <div class="supervisor-card">
+                                <img src="images/profil-m.png" alt="Professor Abdelkader BAGHDED-BEY" class="supervisor-image">
+                                <h5 class="supervisor-title">Conference Supervisor</h5>
+                                <p class="supervisor-description">Professor Abdelkader BAGHDED-BEY</p>
+                                </div>
+                            </div>
+
+                            <!-- Head of the Scientific Committee -->
+                            <div class="col-md-3 col-sm-6">
+                                <div class="supervisor-card">
+                                <img src="images/profil-f.png" alt="Saida Kheira BENAMMAR" class="supervisor-image">
+                                <h5 class="supervisor-title">Head of the Scientific Committee</h5>
+                                <p class="supervisor-description">Saida Kheira BENAMMAR</p>
+                                </div>
+                            </div>
+
+                            <!-- Head of the Organizing Committee -->
+                            <div class="col-md-3 col-sm-6">
+                                <div class="supervisor-card">
+                                <img src="images/profil-m.png" alt="Yousri SICHI" class="supervisor-image">
+                                <h5 class="supervisor-title">Head of the Organizing Committee</h5>
+                                <p class="supervisor-description">Yousri SICHI</p>
+                                </div>
+                            </div>
+                            </div>
+                        </section>
+                    </section>
+
                     <!-- Members Section -->
                     <section class="members-section my-4 text-center">
                         <div class="container">
@@ -362,7 +406,7 @@ $(document).ready(function () {
                                 </div>
                             </div>
                         </section>
-
+                        <br>
 
                     </section>
 
@@ -435,51 +479,6 @@ $(document).ready(function () {
 
 
 
-                     <!-- Supervisory Board of the Conference Section -->
-                    <section class="my-4 text-center">
-                         <section class="container my-5">
-                            <h2 class="text-center mb-4 section-header">Supervisory Board of the Conference</h2>
-                            <div class="row">
-                            <!-- Conference Chairman -->
-                            <div class="col-md-3 col-sm-6">
-                                <div class="supervisor-card">
-                                <img src="images/profil-f.png" alt="Dr Amina Naziha BEDANI" class="supervisor-image">
-                                <h5 class="supervisor-title">Conference Chairman</h5>
-                                <p class="supervisor-description">Dr Amina Naziha BEDANI <b style="visibility: hidden;">Dr Amina Naziha BEDANI</b></p>
-                                </div>
-                            </div>
-
-                            <!-- Conference Supervisor -->
-                            <div class="col-md-3 col-sm-6">
-                                <div class="supervisor-card">
-                                <img src="images/profil-m.png" alt="Professor Abdelkader BAGHDED-BEY" class="supervisor-image">
-                                <h5 class="supervisor-title">Conference Supervisor</h5>
-                                <p class="supervisor-description">Professor Abdelkader BAGHDED-BEY</p>
-                                </div>
-                            </div>
-
-                            <!-- Head of the Scientific Committee -->
-                            <div class="col-md-3 col-sm-6">
-                                <div class="supervisor-card">
-                                <img src="images/profil-f.png" alt="Saida Kheira BENAMMAR" class="supervisor-image">
-                                <h5 class="supervisor-title">Head of the Scientific Committee</h5>
-                                <p class="supervisor-description">Saida Kheira BENAMMAR</p>
-                                </div>
-                            </div>
-
-                            <!-- Head of the Organizing Committee -->
-                            <div class="col-md-3 col-sm-6">
-                                <div class="supervisor-card">
-                                <img src="images/profil-m.png" alt="Yousri SICHI" class="supervisor-image">
-                                <h5 class="supervisor-title">Head of the Organizing Committee</h5>
-                                <p class="supervisor-description">Yousri SICHI</p>
-                                </div>
-                            </div>
-                            </div>
-                        </section>
-                    </section>
-
-
                     <!-- conference venue Section -->
                     <section class="py-5 bg-light">
                         <div class="container">
@@ -545,16 +544,17 @@ $(document).ready(function () {
                     </section>
 
 
-                    <!-- conference venue on maps Section -->
+                    
+
+                     <!-- conference venue on maps Section -->
                     <section class="my-4 text-center">
-                        <h2>Google Maps Location </h2>
+                       <h2>Google Maps Location </h2>
                         <div class="d-flex justify-content-center">
                             <div class="map-container" style="width: 80%;">
                                 <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d8292.474210203774!2d0.5766355739308361!3d35.70702531072404!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e1!3m2!1sfr!2sdz!4v1738234385353!5m2!1sfr!2sdz" width="100%" height="400" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
                             </div>
                         </div>
                     </section>
-
 
                     
                     <!-- contact Section -->

@@ -2,175 +2,51 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Important Dates</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Location Map</title>
+
+    <!-- Bootstrap 5.3.0 -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+
     <style>
-        .important-dates-section {
-            max-width: 1200px;
-            margin: 0 auto;
-            padding: 20px;
-            text-align: center;
+        .map-container {
+            position: relative;
+            padding-top: 56.25%; /* 16:9 Aspect Ratio */
+            height: 0;
+            overflow: hidden;
+            border-radius: 10px;
         }
 
-        .important-dates-section h2 {
-            color: #007bff;
-            font-size: 2rem;
-            margin-bottom: 20px;
-        }
-
-        .important-dates {
-            display: flex;
-            flex-wrap: wrap;
-            justify-content: center;
-            gap: 20px;
-        }
-
-        .important-dates .card {
-            background-color: white;
-            border-radius: 8px;
-            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-            padding: 20px;
-            text-align: center;
-            width: 300px;
-            border: 3px solid;
-            transition: transform 0.3s ease, box-shadow 0.3s ease;
-        }
-
-        .important-dates .card:hover {
-            transform: translateY(-5px);
-            box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
-        }
-
-        .important-dates .card-title {
-            font-size: 18px;
-            font-weight: bold;
-            margin-bottom: 10px;
-        }
-
-        .important-dates .card-text {
-            font-size: 16px;
-            color: #333;
-        }
-
-        /* Border colors */
-        .important-dates .card:nth-child(1) { border-color: #007bff; } /* Blue */
-        .important-dates .card:nth-child(2) { border-color: #28a745; } /* Green */
-        .important-dates .card:nth-child(3) { border-color: #ffc107; } /* Yellow */
-        .important-dates .card:nth-child(4) { border-color: #17a2b8; } /* Teal */
-        .important-dates .card:nth-child(5) { border-color: #dc3545; } /* Red */
-
-        /* Responsive Design */
-        @media (max-width: 768px) {
-            .important-dates {
-                flex-direction: column;
-                align-items: center;
-            }
-        }
-
-        /* Empty div to clear floats */
-        .important-dates-clear {
-            clear: both;
+        .map-container iframe {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            border: 0;
         }
     </style>
 </head>
 <body>
 
-    <div class="important-dates-section">
-        <h2>Important Dates</h2>
-
-        <div class="important-dates">
-            <div class="card">
-                <h5 class="card-title">Abstract Submission Deadline:</h5>
-                <p class="card-text">25 /02/ 2025</p>
-            </div>
-            <div class="card">
-                <h5 class="card-title">Responding to Accepted Abstract:</h5>
-                <p class="card-text">10/03/2025</p>
-            </div>
-            <div class="card">
-                <h5 class="card-title">Deadline for Full Paper Submissions:</h5>
-                <p class="card-text">20/04/2025</p>
+    <section class="container py-5">
+        <div class="text-center">
+            <h2 class="mb-3">Our Location</h2>
+            <p class="text-muted">Find us on the map below</p>
+        </div>
+        <div class="row justify-content-center">
+            <div class="col-md-10">
+                <div class="map-container">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2931.8932039798515!2d0.5755087752516425!3d35.7053713286485!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x12819d0e0d704395%3A0xf9120d6917fd7449!2sUniversit%C3%A9%20Relizane!5e1!3m2!1sfr!2sdz!4v1738447205728!5m2!1sfr!2sdz" 
+                        allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade">
+                    </iframe>
+                </div>
             </div>
         </div>
+    </section>
 
-        <div class="important-dates" style="margin-top: 20px;">
-            <div class="card">
-                <h5 class="card-title">Responding to Accepted Papers:</h5>
-                <p class="card-text">30/04/2025</p>
-            </div>
-            <div class="card">
-                <h5 class="card-title">Conference Date:</h5>
-                <p class="card-text">07 May 2025</p>
-            </div>
-        </div>
-
-        <!-- Empty div to clear floats -->
-        <div class="important-dates-clear"></div>
-    </div>
-
-
-
-        <!-- important dates Section -->
-        <section class="my-4 text-center">
-          <h2 class="text-center mb-4">مواعيد هامة: </h2>
-          <br><br>
-      <!-- dates Section 01 and 02 -->
-      <section class="my-2 text-center">
-          <section class="important-dates">
-              <div class="container">
-                  <div class="row">
-                      <div class="col-md-4 mb-4">
-                          <div class="card border-primary">
-                              <div class="card-body">
-                                  <h5>	آخر أجل لاستقبال الملخصات </h5>
-                                  <p class="card-text">يوم 25 فيفري 2025 </p>
-                              </div>
-                          </div>
-                      </div>
-                      <div class="col-md-4 mb-4">
-                          <div class="card border-success">
-                              <div class="card-body">
-                                  <h5 class="card-title">	الرد على الملخصات المقبولة </h5>
-                                  <p class="card-text">يوم 10 مارس 2025</p>
-                              </div>
-                          </div>
-                      </div>
-                      <div class="col-md-4 mb-4">
-                          <div class="card border-warning">
-                              <div class="card-body">
-                                  <h5 class="card-title">	آخر أجل لإرسال المداخلات كاملة </h5>
-                                  <p class="card-text">يوم 20 أفريل 2025</p>
-                              </div>
-                          </div>
-                      </div>
-                  </div>
-              </div>
-          </section>
-
-          <section class="important-dates">
-              <div class="container">
-                  <div class="row justify-content-center">
-                      <div class="col-md-4 mb-4">
-                          <div class="card border-info">
-                              <div class="card-body">
-                                  <h5 class="card-title">يتم الرد على المداخلات المقبولة </h5>
-                                  <p class="card-text">يوم 30 افريل 2025</p>
-                              </div>
-                          </div>
-                      </div>
-                      <div class="col-md-4 mb-4">
-                          <div class="card border-danger">
-                              <div class="card-body">
-                                  <h5 class="card-title">	يعقد المؤتمر يوم </h5>
-                                 <p class="card-text">يوم 07 ماي 2025</p>
-                              </div>
-                          </div>
-                      </div>
-                  </div>
-              </div>
-          </section>
-        </section>  
-      </section>
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
 
 </body>
 </html>
