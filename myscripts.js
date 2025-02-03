@@ -91,7 +91,7 @@ $(document).ready(function () {
                      <!-- Supervisory Board of the Conference Section -->
                     <section class="my-4 text-center">
     <section class="container my-5">
-        <h2 class="text-center mb-4 section-header">Supervisory Board of the Conference</h2>
+        <h2 class="text-center mb-4 section-header">هيئة الإشراف على المؤتمر</h2>
         <div class="row">
             <!-- Conference Chairman -->
             <div class="col-md-3 col-sm-6">
