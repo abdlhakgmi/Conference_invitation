@@ -1038,3 +1038,25 @@ body {
     background-color: rgba(255, 215, 0, 0.2); /* Slightly darker gold background on hover */
     transition: background-color 0.3s ease; /* Smooth transition */
 }
+
+
+/* Custom modal size */
+.modal-dialog {
+    max-width: 500px; /* Set the width */
+    width: 100%;
+    height: 500px; /* Set the height */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.modal-content {
+    width: 100%;
+    height: 100%;
+}
+
+.modal-body img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* Ensure the image covers the modal */
+}

@@ -89,49 +89,135 @@ $(document).ready(function () {
                         </div>
                     </section>
 
-                     <!-- Supervisory Board of the Conference Section -->
-                    <section class="my-4 text-center">
-                         <section class="container my-5">
-                            <h2 class="text-center mb-4 section-header">Supervisory Board of the Conference</h2>
-                            <div class="row">
-                            <!-- Conference Chairman -->
-                            <div class="col-md-3 col-sm-6">
-                                <div class="supervisor-card">
-                                <img src="https://i.ibb.co/rRBKKc8D/photo-2025-02-01-17-18-26-2.jpg" alt="Dr Amina Naziha BEDANI" class="supervisor-image">
-                                <h5 class="supervisor-title">Conference Chairman</h5>
-                                <p class="supervisor-description">Dr Amina Naziha BEDANI <b style="visibility: hidden;">Dr Amina Naziha BEDANI</b></p>
-                                </div>
-                            </div>
+                    <!-- Supervisory Board of the Conference Section -->
+<section class="my-4 text-center">
+    <section class="container my-5">
+        <h2 class="text-center mb-4 section-header">Supervisory Board of the Conference</h2>
+        <div class="row">
+            <!-- Conference Chairman -->
+            <div class="col-md-3 col-sm-6">
+                <div class="supervisor-card">
+                    <!-- Image with data-bs-toggle to trigger the modal -->
+                    <img 
+                        src="https://i.ibb.co/rRBKKc8D/photo-2025-02-01-17-18-26-2.jpg" 
+                        alt="Dr Amina Naziha BEDANI" 
+                        class="supervisor-image" 
+                        data-bs-toggle="modal" 
+                        data-bs-target="#modal1"
+                    >
+                    <h5 class="supervisor-title">Conference Chairman</h5>
+                    <p class="supervisor-description">Dr Amina Naziha BEDANI <b style="visibility: hidden;">Dr Amina Naziha BEDANI</b></p>
+                </div>
+            </div>
 
-                            <!-- Conference Supervisor -->
-                            <div class="col-md-3 col-sm-6">
-                                <div class="supervisor-card">
-                                <img src="https://i.ibb.co/Tqv52NBj/photo-2025-02-01-17-18-30-2.jpg" alt="Professor Abdelkader BAGHDED-BEY" class="supervisor-image">
-                                <h5 class="supervisor-title">Conference Supervisor</h5>
-                                <p class="supervisor-description">Professor Abdelkader BAGHDED-BEY</p>
-                                </div>
-                            </div>
+            <!-- Conference Supervisor -->
+            <div class="col-md-3 col-sm-6">
+                <div class="supervisor-card">
+                    <img 
+                        src="https://i.ibb.co/Tqv52NBj/photo-2025-02-01-17-18-30-2.jpg" 
+                        alt="Professor Abdelkader BAGHDED-BEY" 
+                        class="supervisor-image" 
+                        data-bs-toggle="modal" 
+                        data-bs-target="#modal2"
+                    >
+                    <h5 class="supervisor-title">Conference Supervisor</h5>
+                    <p class="supervisor-description">Professor Abdelkader BAGHDED-BEY</p>
+                </div>
+            </div>
 
-                            <!-- Head of the Scientific Committee -->
-                            <div class="col-md-3 col-sm-6">
-                                <div class="supervisor-card">
-                                <img src="https://i.ibb.co/MxMGsw70/photo-2025-02-01-17-18-14.jpg" alt="Saida Kheira BENAMMAR" class="supervisor-image">
-                                <h5 class="supervisor-title">Head of the Scientific Committee</h5>
-                                <p class="supervisor-description">Saida Kheira BENAMMAR</p>
-                                </div>
-                            </div>
+            <!-- Head of the Scientific Committee -->
+            <div class="col-md-3 col-sm-6">
+                <div class="supervisor-card">
+                    <img 
+                        src="https://i.ibb.co/MxMGsw70/photo-2025-02-01-17-18-14.jpg" 
+                        alt="Saida Kheira BENAMMAR" 
+                        class="supervisor-image" 
+                        data-bs-toggle="modal" 
+                        data-bs-target="#modal3"
+                    >
+                    <h5 class="supervisor-title">Head of the Scientific Committee</h5>
+                    <p class="supervisor-description">Saida Kheira BENAMMAR</p>
+                </div>
+            </div>
 
-                            <!-- Head of the Organizing Committee -->
-                            <div class="col-md-3 col-sm-6">
-                                <div class="supervisor-card">
-                                <img src="https://i.ibb.co/tpwZDMmp/344764433-1263174611243504-2517104134431019421-n.jpg" alt="Yousri SICHI" class="supervisor-image">
-                                <h5 class="supervisor-title">Head of the Organizing Committee</h5>
-                                <p class="supervisor-description">Yousri SICHI</p>
-                                </div>
-                            </div>
-                            </div>
-                        </section>
-                    </section>
+            <!-- Head of the Organizing Committee -->
+            <div class="col-md-3 col-sm-6">
+                <div class="supervisor-card">
+                    <img 
+                        src="https://i.ibb.co/tpwZDMmp/344764433-1263174611243504-2517104134431019421-n.jpg" 
+                        alt="Yousri SICHI" 
+                        class="supervisor-image" 
+                        data-bs-toggle="modal" 
+                        data-bs-target="#modal4"
+                    >
+                    <h5 class="supervisor-title">Head of the Organizing Committee</h5>
+                    <p class="supervisor-description">Yousri SICHI</p>
+                </div>
+            </div>
+        </div>
+    </section>
+</section>
+
+<!-- Modals for each image -->
+<!-- Modal 1 -->
+<div class="modal fade" id="modal1" tabindex="-1" aria-labelledby="modal1Label" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content">
+            <div class="modal-body">
+                <img 
+                    src="https://i.ibb.co/rRBKKc8D/photo-2025-02-01-17-18-26-2.jpg" 
+                    alt="Dr Amina Naziha BEDANI" 
+                    class="img-fluid"
+                >
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Modal 2 -->
+<div class="modal fade" id="modal2" tabindex="-1" aria-labelledby="modal2Label" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content">
+            <div class="modal-body">
+                <img 
+                    src="https://i.ibb.co/Tqv52NBj/photo-2025-02-01-17-18-30-2.jpg" 
+                    alt="Professor Abdelkader BAGHDED-BEY" 
+                    class="img-fluid"
+                >
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Modal 3 -->
+<div class="modal fade" id="modal3" tabindex="-1" aria-labelledby="modal3Label" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content">
+            <div class="modal-body">
+                <img 
+                    src="https://i.ibb.co/MxMGsw70/photo-2025-02-01-17-18-14.jpg" 
+                    alt="Saida Kheira BENAMMAR" 
+                    class="img-fluid"
+                >
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Modal 4 -->
+<div class="modal fade" id="modal4" tabindex="-1" aria-labelledby="modal4Label" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content">
+            <div class="modal-body">
+                <img 
+                    src="https://i.ibb.co/tpwZDMmp/344764433-1263174611243504-2517104134431019421-n.jpg" 
+                    alt="Yousri SICHI" 
+                    class="img-fluid"
+                >
+            </div>
+        </div>
+    </div>
+</div>
 
                     <!-- Members Section -->
                     <section class="members-section my-4 text-center">
