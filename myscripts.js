@@ -664,7 +664,7 @@ $(document).ready(function () {
                                     <a href="https://docs.google.com/forms/d/e/1FAIpQLSdG9jOwJMY1H5EvXpDYCqTSH2p49fDLEXHrBgqDp7eRcLIhPg/viewform?pli=1" 
                                        class="btn btn-primary btn-lg" 
                                        target="_blank">
-                                       Go to the registration form
+                                       الإنتقال إلى نموذج التسجيل
                                     </a>
                                 </div>
                               
