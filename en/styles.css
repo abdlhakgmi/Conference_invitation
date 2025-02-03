@@ -622,7 +622,7 @@ footer {
 /*remaining days section*/
 .days-remaining {
     background: #C0C0C0; /* Silver Background */
-    color: #FFD700; /* Gold Text */
+    color: #614E1A; /* Gold Text */
     padding: 80px 0;
     text-align: center;
 }
@@ -859,8 +859,8 @@ body {
     box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
   }
  .supervisor-image {
-    width: 120px;
-    height: 120px;
+    width: 130px;
+    height: 130px;
     border-radius: 50%;
     object-fit: cover;
     margin-bottom: 15px;
@@ -1017,5 +1017,24 @@ body {
   }
 
 
-  /*gallery photo 3d section*/
-  
+ /* Custom separator line */
+.custom-separator {
+    border: 0;
+    height: 2px;
+    background: linear-gradient(90deg, rgba(255,255,255,0) 0%, rgba(23,162,184,1) 50%, rgba(255,255,255,0) 100%);
+    margin: 2rem 0;
+}
+
+/* Style for the visitor number */
+.visitor-number {
+    display: inline-block;
+    padding: 0.25rem 0.75rem; /* Add some padding */
+    color: green; /* Custom text color */
+    font-weight: bold; /* Make the text bold */
+}
+
+/* Hover effect for the visitor number */
+.visitor-number:hover {
+    background-color: rgba(255, 215, 0, 0.2); /* Slightly darker gold background on hover */
+    transition: background-color 0.3s ease; /* Smooth transition */
+}

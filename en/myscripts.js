@@ -62,17 +62,10 @@ $(document).ready(function () {
                     </section>
 
                     <!-- Carousel Section -->
-                    <section class="carousel slide my-4" data-bs-ride="carousel" id="conferenceCarousel">
-                        <div class="carousel-inner">
-                            <div class="carousel-item active">
-                                <img src="images/carosel01.jpg" class="d-block w-100" alt="img 1">
-                            </div>
-                            <div class="carousel-item">
-                                <img src="images/carosel02.jpg" class="d-block w-100" alt="img 2">
-                            </div>
-                            <div class="carousel-item">
-                                <img src="images/carosel03.jpg" class="d-block w-100" alt="img 3">
-                            </div>
+                    <!-- Carousel Section -->
+                    <section class="carousel slide my-4 w-100" data-bs-ride="carousel" id="conferenceCarousel">
+                        <div class="carousel-inner" id="carousel-inner">
+                            <!-- Carousel items will be dynamically inserted here -->
                         </div>
                         <button class="carousel-control-prev" type="button" data-bs-target="#conferenceCarousel" data-bs-slide="prev">
                             <span class="carousel-control-prev-icon" aria-hidden="true"></span>
@@ -83,6 +76,7 @@ $(document).ready(function () {
                             <span class="visually-hidden">next</span>
                         </button>
                     </section>
+
 
                     <!-- Days Remaining Section -->
                     <section id="days-remaining-section" class="days-remaining text-center py-5">
@@ -103,7 +97,7 @@ $(document).ready(function () {
                             <!-- Conference Chairman -->
                             <div class="col-md-3 col-sm-6">
                                 <div class="supervisor-card">
-                                <img src="images/profil-f.png" alt="Dr Amina Naziha BEDANI" class="supervisor-image">
+                                <img src="https://i.ibb.co/rRBKKc8D/photo-2025-02-01-17-18-26-2.jpg" alt="Dr Amina Naziha BEDANI" class="supervisor-image">
                                 <h5 class="supervisor-title">Conference Chairman</h5>
                                 <p class="supervisor-description">Dr Amina Naziha BEDANI <b style="visibility: hidden;">Dr Amina Naziha BEDANI</b></p>
                                 </div>
@@ -112,7 +106,7 @@ $(document).ready(function () {
                             <!-- Conference Supervisor -->
                             <div class="col-md-3 col-sm-6">
                                 <div class="supervisor-card">
-                                <img src="images/profil-m.png" alt="Professor Abdelkader BAGHDED-BEY" class="supervisor-image">
+                                <img src="https://i.ibb.co/Tqv52NBj/photo-2025-02-01-17-18-30-2.jpg" alt="Professor Abdelkader BAGHDED-BEY" class="supervisor-image">
                                 <h5 class="supervisor-title">Conference Supervisor</h5>
                                 <p class="supervisor-description">Professor Abdelkader BAGHDED-BEY</p>
                                 </div>
@@ -121,7 +115,7 @@ $(document).ready(function () {
                             <!-- Head of the Scientific Committee -->
                             <div class="col-md-3 col-sm-6">
                                 <div class="supervisor-card">
-                                <img src="images/profil-f.png" alt="Saida Kheira BENAMMAR" class="supervisor-image">
+                                <img src="https://i.ibb.co/MxMGsw70/photo-2025-02-01-17-18-14.jpg" alt="Saida Kheira BENAMMAR" class="supervisor-image">
                                 <h5 class="supervisor-title">Head of the Scientific Committee</h5>
                                 <p class="supervisor-description">Saida Kheira BENAMMAR</p>
                                 </div>
@@ -130,7 +124,7 @@ $(document).ready(function () {
                             <!-- Head of the Organizing Committee -->
                             <div class="col-md-3 col-sm-6">
                                 <div class="supervisor-card">
-                                <img src="images/profil-m.png" alt="Yousri SICHI" class="supervisor-image">
+                                <img src="https://i.ibb.co/tpwZDMmp/344764433-1263174611243504-2517104134431019421-n.jpg" alt="Yousri SICHI" class="supervisor-image">
                                 <h5 class="supervisor-title">Head of the Organizing Committee</h5>
                                 <p class="supervisor-description">Yousri SICHI</p>
                                 </div>
