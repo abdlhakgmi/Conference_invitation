@@ -98,7 +98,7 @@ $(document).ready(function () {
                 <div class="supervisor-card">
                     <!-- Image with data-bs-toggle to trigger the modal -->
                     <img 
-                        src="https://i.ibb.co/rRBKKc8D/photo-2025-02-01-17-18-26-2.jpg" 
+                        src="en/images/BEDANI.jpg" 
                         alt="Dr Amina Naziha BEDANI" 
                         class="supervisor-image" 
                         data-bs-toggle="modal" 
@@ -113,7 +113,7 @@ $(document).ready(function () {
             <div class="col-md-3 col-sm-6">
                 <div class="supervisor-card">
                     <img 
-                        src="https://i.ibb.co/Tqv52NBj/photo-2025-02-01-17-18-30-2.jpg" 
+                        src="en/images/BAGHDED-BEY.jpg" 
                         alt="Professor Abdelkader BAGHDED-BEY" 
                         class="supervisor-image" 
                         data-bs-toggle="modal" 
@@ -128,7 +128,7 @@ $(document).ready(function () {
             <div class="col-md-3 col-sm-6">
                 <div class="supervisor-card">
                     <img 
-                        src="https://i.ibb.co/MxMGsw70/photo-2025-02-01-17-18-14.jpg" 
+                        src="en/images/BENAMMAR.jpg" 
                         alt="Saida Kheira BENAMMAR" 
                         class="supervisor-image" 
                         data-bs-toggle="modal" 
@@ -143,7 +143,7 @@ $(document).ready(function () {
             <div class="col-md-3 col-sm-6">
                 <div class="supervisor-card">
                     <img 
-                        src="https://i.ibb.co/tpwZDMmp/344764433-1263174611243504-2517104134431019421-n.jpg" 
+                        src="en/images/SICHI.jpg" 
                         alt="Yousri SICHI" 
                         class="supervisor-image" 
                         data-bs-toggle="modal" 
