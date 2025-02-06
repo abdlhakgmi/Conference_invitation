@@ -165,7 +165,7 @@ $(document).ready(function () {
         <div class="modal-content">
             <div class="modal-body">
                 <img 
-                    src="https://i.ibb.co/rRBKKc8D/photo-2025-02-01-17-18-26-2.jpg" 
+                    src="images/BEDANI.jpg" 
                     alt="Dr Amina Naziha BEDANI" 
                     class="img-fluid"
                 >
@@ -180,7 +180,7 @@ $(document).ready(function () {
         <div class="modal-content">
             <div class="modal-body">
                 <img 
-                    src="https://i.ibb.co/Tqv52NBj/photo-2025-02-01-17-18-30-2.jpg" 
+                    src="images/BAGHDED-BEY.jpg" 
                     alt="Professor Abdelkader BAGHDED-BEY" 
                     class="img-fluid"
                 >
@@ -195,7 +195,7 @@ $(document).ready(function () {
         <div class="modal-content">
             <div class="modal-body">
                 <img 
-                    src="https://i.ibb.co/MxMGsw70/photo-2025-02-01-17-18-14.jpg" 
+                    src="images/BENAMMAR.jpg" 
                     alt="Saida Kheira BENAMMAR" 
                     class="img-fluid"
                 >
@@ -210,7 +210,7 @@ $(document).ready(function () {
         <div class="modal-content">
             <div class="modal-body">
                 <img 
-                    src="https://i.ibb.co/tpwZDMmp/344764433-1263174611243504-2517104134431019421-n.jpg" 
+                    src="images/SICHI.jpg" 
                     alt="Yousri SICHI" 
                     class="img-fluid"
                 >
